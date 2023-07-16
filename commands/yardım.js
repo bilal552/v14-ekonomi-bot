@@ -9,6 +9,7 @@ exports.run = async (client, message, args) => {
   .setTitle("AOPRAX - Yardım Menüsü!")
   .addFields({ name: config.prefix + 'cf', value: `Kumar Oynarsın!`, inline: true})
   .addFields({ name: config.prefix + 'çal', value: "Birinden Para Çalarsın!", inline: true})
+    .addFields({ name: config.prefix + 'çalış', value: "Çalışarak Para Kazanırsın!", inline: true})
   .addFields({ name: config.prefix + 'kart-oluştur', value: `Kredi Kartı Oluşturursun!`, inline: true})
   .addFields({ name: config.prefix + 'banka', value: `Bankadaki Parana Bakarsın!`, inline: true})
   .addFields({ name: config.prefix + 'günlük', value: `Günlük Harçlık Alırsın!`, inline: true})
