@@ -3,7 +3,7 @@ const { Collection } = require("discord.js");
 const fs = require("fs");
 
 client.on("ready", () => {
-  client.user.setActivity("YOUTUBE: AOPRAX");
+  client.user.setActivity("Tc simulasyonu");
 
   client.commands = new Collection();
   client.aliases = new Collection();

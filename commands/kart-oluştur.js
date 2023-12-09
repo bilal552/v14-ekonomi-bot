@@ -4,7 +4,7 @@ const moment = require("moment");
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 exports.run = async (client, message, args) => {
     const embed = new EmbedBuilder()
-    .setTitle("AOPRAX - Kredi Kart!")
+    .setTitle("Tc simulasyonu - Kredi Kart!")
     .setDescription("Aşağıdaki butondan kredi kartı oluşturabilirsin!")
     .setColor("#ff0000")
     const row = new ActionRowBuilder()
@@ -24,5 +24,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'kart-oluştur'
+  name: 'kartoluştur'
 };

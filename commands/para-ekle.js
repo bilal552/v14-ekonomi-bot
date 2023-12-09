@@ -22,5 +22,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'para-ekle'
+  name: 'paraekle'
 };

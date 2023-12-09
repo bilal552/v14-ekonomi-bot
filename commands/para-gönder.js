@@ -23,5 +23,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'para-gönder'
+  name: 'paragönder'
 };

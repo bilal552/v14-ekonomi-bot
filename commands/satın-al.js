@@ -55,5 +55,5 @@ exports.conf = {
 }
 
 exports.help = {
-    name: 'satın-al'
+    name: 'satınal'
 }

@@ -6,7 +6,7 @@ const config = require('../config');
 exports.run = async (client, message, args) => {
   
   const embed = new Discord.EmbedBuilder()
-  .setTitle("AOPRAX - Yardım Menüsü!")
+  .setTitle("Tc simulasyonu - Yardım Menüsü!")
   .addFields({ name: config.prefix + 'cf', value: `Kumar Oynarsın!`, inline: true})
   .addFields({ name: config.prefix + 'çal', value: "Birinden Para Çalarsın!", inline: true})
     .addFields({ name: config.prefix + 'çalış', value: "Çalışarak Para Kazanırsın!", inline: true})

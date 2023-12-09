@@ -4,7 +4,7 @@ const Discord = require('discord.js')
 exports.run = async (client, message, args) => {
   
  const embed = new Discord.EmbedBuilder()
-.setTitle("AOPRAX - Ekonomi Market!")
+.setTitle("Tc simulasyonu - Ekonomi Market!")
 .addFields({ name: '> Cips', value: `15 TL`, inline: true})
 .addFields({ name: '> Hamburger', value: `95 TL`, inline: true})
 .addFields({ name: '> Cola Cola ', value: `20 TL`, inline: true})
