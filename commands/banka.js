@@ -11,7 +11,7 @@ let cvc = kart.cvc
 let tür = kart.tür
 let son = kart.son
 const embed = new EmbedBuilder()
-.setTitle("AOPRAX Bank")
+.setTitle("Tc simulasyonu  Bank")
 .addFields({ name: 'Coin', value: `${banka || "Bankada Paran Yok!"}`, inline: true})
 .addFields({ name: 'Kart Numarası', value: `${numara}`, inline: true})
 .addFields({ name: 'Son Kullanım Tarihi', value: `${son}`, inline: true})

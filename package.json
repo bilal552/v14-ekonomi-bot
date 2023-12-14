@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "aoi.js": "^6.6.1",
     "croxydb": "^0.0.7",
     "discord.js": "^14.11.0",
     "moment": "^2.29.4",
